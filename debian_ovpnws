@@ -1,11 +1,13 @@
 #!/bin/bash
 #Script Variables
 HOST='174.138.184.18';
-USER='fplusvip_orangemaster';
-PASS='orangemaster1';
-DBNAME='fplusvip_orangemaster';
+USER='fplusvip_orangemasterbd';
+PASS='orangemasterbd1122';
+DBNAME='fplusvip_orangemasterbd';
 PORT_TCP='1194';
 PORT_UDP='53';
+API_LINK='https://orangemasterbd.xyz/api/authentication';
+API_KEY='FOYSOL';
 timedatectl set-timezone Asia/Riyadh
 install_require () {
 clear
